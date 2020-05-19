@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'ProximaNovaCond-RegularIt';
+    src: url('../fonts/ProximaNova/WOFF/ProximaNovaExCn-RegularIt.woff');
+    src: url('../fonts/ProximaNova/WOFF/ProximaNovaExCn-RegularIt.woff2') format('woff2'),
+         url('../fonts/ProximaNova/WOFF/ProximaNovaExCn-RegularIt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ProximaNovaCond-Semibold';
+    src: url('../fonts/ProximaNova/WOFF/ProximaNovaCond-Semibold.woff');
+    src: url('../fonts/ProximaNova/WOFF/ProximaNovaCond-Semibold.woff2') format('woff2'),
+         url('../fonts/ProximaNova/WOFF/ProximaNovaCond-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ProximaNovaCond-Extrabld';
+    src: url('../fonts/ProximaNova/WOFF/ProximaNovaCond-Extrabld.woff');
+    src: url('../fonts/ProximaNova/WOFF/ProximaNovaCond-Extrabld.woff2') format('woff2'),
+         url('../fonts/ProximaNova/WOFF/ProximaNovaCond-Extrabld.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'SFUIText-Regular';
+    src: url('../fonts/SFUIText/SFUIText-Regular.woff');
+    src: url('../fonts/SFUIText/SFUIText-Regular.woff2') format('woff2'),
+         url('../fonts/SFUIText/SFUIText-Regular.woff') format('woff'),
+         url('../fonts/SFUIText/SF-UI-Text-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$font-base:ProximaNovaCond-RegularIt;
+$font-sm:ProximaNovaCond-Semibold;
+$font-eb:ProximaNovaCond-Extrabld;
+$font-reg:SFUIText-Regular;
+$font-eb2:ProximaNovaExCn-ExtrabldIt;

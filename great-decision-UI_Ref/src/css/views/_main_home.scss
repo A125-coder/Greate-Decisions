@@ -1,0 +1,158 @@
+.mainOne{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        text-transform: uppercase;
+        @include fonts (40px,$font-eb,900,$p-2);
+        span{
+            color: $p-1;
+        }
+    }
+    p{
+        @include fonts (15px,$font-reg,700,$p-2); 
+        line-height: 27px;
+    }
+    .yellow_circle{
+        display: flex;
+        flex-direction: row;
+    .circle{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        background-color: $p-1;
+        margin: 45px;
+        position: relative;
+        img{
+            position: absolute;
+            top: 45px;
+            left: 55px;
+        }
+    }
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 75px;
+    h3{
+        @include fonts (27px,$font-eb,600,$p-2);
+        text-transform: uppercase; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.button-more{      
+    margin-bottom: 100px;
+}
+
+
+  
+}
+.mainTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .photo{
+        position: relative;
+    .border{
+        border: solid 16px $p-1;
+        box-shadow: 0px 2px 5px 0px rgba(2, 3, 3, 0.75);
+        width: 350px;
+        height: 540px;
+    }
+    img{
+        position: absolute;
+        top: 50px;
+        left: -250px;
+        display: inline-block;
+    }
+    }
+    .dropdown{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        h2{
+            text-transform: uppercase;
+            @include fonts (40px,$font-eb,900,$p-2);
+            text-align:left;
+        }
+        span{
+            @include fonts (40px,$font-eb,900,$p-1);
+        }
+        select{
+            width: 100%;
+            height: 50px;
+            border-radius: 50px;
+            @include fonts (20px,$font-sm,500,$p-2);
+            padding:0 20px 0;
+        }
+    }
+    .button-ahead:hover{
+        box-shadow: 0px 2px 5px 0px rgba(2, 3, 3, 0.75);
+        @include button (center,$p-4,$p-4,18px,pointer);
+        @include fonts (18px,$font-sm,500,$p-3);
+    }
+    .button-show:hover{
+        box-shadow: 0px 2px 5px 0px rgba(2, 3, 3, 0.75);
+        @include button (center,$p-3,$p-2,18px,pointer);
+        @include fonts (18px,$font-sm,500,$p-2);
+    }
+}
+
+.mainThree{
+    margin-top: 200px;
+    text-align: center;
+    h2{
+        text-transform: uppercase;
+        @include fonts (40px,$font-eb,900,$p-2);
+        margin-bottom: 20px;
+    }
+    span{
+        @include fonts (40px,$font-eb,900,$p-1);
+    }
+    p{
+        @include fonts (17px,$font-reg,700,$p-2); 
+        margin-bottom: 60px;
+    }
+    .advantages{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        p{
+            margin-top: 30px;
+            text-transform: uppercase;
+            @include fonts (20px,$font-sm,900,$p-2); 
+        }
+    }
+}
+.Four{
+    background-color: $p-5;
+    background-size: cover;
+    margin-top: 100px;
+
+.mainFour{
+    text-align: center;
+    h2{
+        // margin-top: 70px;
+        text-transform: uppercase;
+        @include fonts (40px,$font-eb,900,$p-2);
+        margin-bottom: 20px;
+    }
+    span{
+        @include fonts (40px,$font-eb,900,$p-1);
+    }
+    p{
+        @include fonts (17px,$font-reg,700,$p-2);
+    }
+}
+} 
+.button-more:hover{
+    box-shadow: 0px 2px 5px 0px rgba(2, 3, 3, 0.75);
+    @include button (center,$p-4,$p-4,18px,pointer);
+    @include fonts (18px,$font-sm,400,$p-3);
+}

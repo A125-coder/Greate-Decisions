@@ -1,0 +1,25 @@
+.button-more{
+    padding: 10px 25px;
+    @include fonts (18px,$font-sm,600,$p-2);
+    @include button (center,$p-1,$p-1,20px,pointer);
+}
+.button-show{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 20px;
+    width: 40%;
+    @include fonts (18px,$font-sm,600,$p-3);
+    background-color: $p-2;
+    border-color: $p-2; 
+}
+.button-ahead{
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 20px;
+    width: 40%;
+    @include fonts (18px,$font-sm,600,$p-2);
+    background-color: $p-1;
+    border-color: $p-1; 
+}

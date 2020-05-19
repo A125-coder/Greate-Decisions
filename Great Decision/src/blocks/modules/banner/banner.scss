@@ -1,0 +1,72 @@
+.header{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center; 
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    a{
+        @include fonts (18px,$font-reg,600,$p-4);
+        display: inline-block;
+        justify-self: stretch;
+        padding-top:15px;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: none;
+        @include fonts (18px,$font-reg,600,$l1-p4);
+        cursor: pointer;
+    }
+}
+
+.banner1{
+    background-color: $p-3;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 600px;
+    .banner{
+        position: absolute;
+        top: 120px;
+        right:-2px;
+        background-size: cover;
+        background-position: center;
+        z-index: 0;
+    }
+    .more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        margin-top: 100px;
+        margin-bottom: 60px;
+        position: absolute;
+        h1{    
+            text-align: center;  
+            text-transform: uppercase;
+            @include fonts (60px,$font-eb,900,$p-3);
+            text-shadow: 0px 3px 4px rgba(40, 40, 40, 0.75);
+            margin-bottom: 80px;
+        span{
+            @include fonts (60px,$font-eb,900,$p-1);
+        }
+    }
+    p{   
+        text-align: center;
+        @include fonts (20px,$font-sm,400,$p-3);
+        margin-bottom: 20px;
+        }
+    button{      
+        padding: 10px 25px;
+        @include fonts (20px,$font-sm,600,$p-2);
+        @include button (center,$p-1,$p-1,20px,pointer);
+    }
+    button:hover{
+        box-shadow: 0px 2px 5px 0px rgba(2, 3, 3, 0.75);
+        @include button (center,$p-7,$p-7,20px,pointer);
+    }
+}
+}
+  
