@@ -35,10 +35,20 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'ProximaNovaExCn-Black';
+    src: url('../fonts/ProximaNova/WOFF/ProximaNovaExCn-Black.woff');
+    src: url('../fonts/ProximaNova/WOFF/ProximaNovaExCn-Black.woff2') format('woff2'),
+         url('../fonts/ProximaNova/WOFF/ProximaNovaExCn-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
-$font-base:ProximaNovaCond-RegularIt;
-$font-sm:ProximaNovaCond-Semibold;
-$font-eb:ProximaNovaCond-Extrabld;
-$font-reg:SFUIText-Regular;
-$font-eb2:ProximaNovaExCn-ExtrabldIt;
+$font-prox-reg:ProximaNovaCond-RegularIt;
+$font-prox-sm:ProximaNovaCond-Semibold;
+$font-prox-eb:ProximaNovaCond-Extrabld;
+$font-sfui-reg:SFUIText-Regular;
+$font-prox-eb2:ProximaNovaExCn-ExtrabldIt;
+$font-prox-black:ProximaNovaExCn-Black;

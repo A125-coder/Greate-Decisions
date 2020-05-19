@@ -6,13 +6,13 @@
     align-items: center;
     h1{
         text-transform: uppercase;
-        @include fonts (40px,$font-eb,900,$p-2);
+        @include fonts (40px,$font-prox-black,900,$p-2);
         span{
             color: $p-1;
         }
     }
     p{
-        @include fonts (15px,$font-reg,700,$p-2); 
+        @include fonts (15px,$font-sfui-reg,700,$p-2); 
         line-height: 27px;
     }
     .yellow_circle{
@@ -38,7 +38,7 @@
     flex-direction: row;
     margin-bottom: 75px;
     h3{
-        @include fonts (27px,$font-eb,600,$p-2);
+        @include fonts (27px,$font-prox-black,600,$p-2);
         text-transform: uppercase; 
         text-align: center;
         margin-bottom: 20px;
@@ -77,30 +77,21 @@
         flex-wrap: wrap;
         h2{
             text-transform: uppercase;
-            @include fonts (40px,$font-eb,900,$p-2);
+            @include fonts (40px,$font-prox-black,900,$p-2);
             text-align:left;
         }
         span{
-            @include fonts (40px,$font-eb,900,$p-1);
+            @include fonts (40px,$font-prox-black,900,$p-1);
         }
         select{
             width: 100%;
             height: 50px;
             border-radius: 50px;
-            @include fonts (20px,$font-sm,500,$p-2);
+            @include fonts (20px,$font-prox-sm,500,$p-2);
             padding:0 20px 0;
         }
     }
-    .button-ahead:hover{
-        box-shadow: 0px 2px 5px 0px rgba(2, 3, 3, 0.75);
-        @include button (center,$p-4,$p-4,18px,pointer);
-        @include fonts (18px,$font-sm,500,$p-3);
-    }
-    .button-show:hover{
-        box-shadow: 0px 2px 5px 0px rgba(2, 3, 3, 0.75);
-        @include button (center,$p-3,$p-2,18px,pointer);
-        @include fonts (18px,$font-sm,500,$p-2);
-    }
+    
 }
 
 .mainThree{
@@ -108,14 +99,14 @@
     text-align: center;
     h2{
         text-transform: uppercase;
-        @include fonts (40px,$font-eb,900,$p-2);
+        @include fonts (40px,$font-prox-black,900,$p-2);
         margin-bottom: 20px;
     }
     span{
-        @include fonts (40px,$font-eb,900,$p-1);
+        @include fonts (40px,$font-prox-black,900,$p-1);
     }
     p{
-        @include fonts (17px,$font-reg,700,$p-2); 
+        @include fonts (17px,$font-sfui-reg,700,$p-2); 
         margin-bottom: 60px;
     }
     .advantages{
@@ -126,7 +117,7 @@
         p{
             margin-top: 30px;
             text-transform: uppercase;
-            @include fonts (20px,$font-sm,900,$p-2); 
+            @include fonts (20px,$font-prox-sm,900,$p-2); 
         }
     }
 }
@@ -140,19 +131,96 @@
     h2{
         // margin-top: 70px;
         text-transform: uppercase;
-        @include fonts (40px,$font-eb,900,$p-2);
+        @include fonts (40px,$font-prox-black,900,$p-2);
         margin-bottom: 20px;
     }
     span{
-        @include fonts (40px,$font-eb,900,$p-1);
+        @include fonts (40px,$font-prox-black,900,$p-1);
     }
     p{
-        @include fonts (17px,$font-reg,700,$p-2);
+        @include fonts (17px,$font-sfui-reg,700,$p-2);
     }
 }
 } 
-.button-more:hover{
-    box-shadow: 0px 2px 5px 0px rgba(2, 3, 3, 0.75);
-    @include button (center,$p-4,$p-4,18px,pointer);
-    @include fonts (18px,$font-sm,400,$p-3);
+.house_level{
+    justify-content: center;
+}
+.advantages_list{
+    padding: 25px;
+}
+.house_level img{
+    width: 285px;
+    height: 219px;
+    margin-top: 10px;
+}
+.house_level button{
+    display: block;
+    width: 215px;
+    margin-top: 20px; 
+}
+#standart, #luxory, #premium{
+    display: block;
+    cursor: pointer;
+    margin: 10px;
+    width: 325px;
+    height: 330px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5)
+
+    img{
+        width: 100%;
+    }
+}
+.text_div{
+    display: none;
+    width: 90%;
+    p{
+        text-align: center;
+    }
+}
+.text_div:nth-child(2){
+    display: inline-block;
+    margin: 0 auto;  
+}
+#carousel img{
+    cursor: pointer;
+}
+#carousel{
+    position: relative;
+}
+.quote_hr_div{
+    border-bottom: solid 2px #4e4751;
+    margin: 25px auto;
+    height: 50px;
+    justify-content: center;
+}
+.qoute_circle{
+    background-color: #4e4751;
+    height: 42px;
+    border-radius: 50%;
+    margin-top: 26px;
+}
+.qoute_circle p{
+    font-family: Proxima-Nova-Bold;
+    color: white;
+    font-size: 55px;
+    line-height: 0px;
+    display: block;
+    position: absolute;
+    top: -50px;
+    left: 6.5px;
+}
+#carou_left, #carou_right{
+    height: 100%;
+    cursor: pointer;
+    display: inline-block;
+}
+#carou_right{
+    cursor: pointer;
+}
+#root span{
+    color:#4e4751;
+    text-transform: uppercase;
 }
