@@ -4,6 +4,7 @@
     font-weight: $font-weight;
     color: $font-color;
 }
+
 @mixin button($text-align,$background-color,$border-color,$border-radius,$cursor){
     text-align: $text-align;
     background-color: $background-color;

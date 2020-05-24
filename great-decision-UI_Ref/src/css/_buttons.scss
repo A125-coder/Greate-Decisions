@@ -2,6 +2,7 @@
     padding: 10px 25px;
     @include fonts (18px,$font-prox-sm,600,$p-2);
     @include button (center,$p-1,$p-1,18px,pointer);
+    margin: 0 auto;
 }
 .button-more:hover{
     box-shadow: 0px 2px 5px 0px rgba(2, 3, 3, 0.75);

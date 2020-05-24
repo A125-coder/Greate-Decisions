@@ -27,18 +27,18 @@ right_btn.addEventListener('click', function(){
         root.innerHTML = text_p[index].innerHTML;
 })
 root.innerHTML.style.color='#4e4751';
-let buttons = document.querySelectorAll('button')
-for(let i = 0; i<buttons.length; i++){
-    buttons[i].addEventListener('mouseenter', function(){
-        buttons[i].style.backgroundColor='#f7941e';
-        buttons[i].style.border='solid 1px #f7941e';
-        buttons[i].style.color='#fff';
-        buttons[i].style.transition='all .4s linear';
-    })
-    buttons[i].addEventListener('mouseleave', function(){
-        buttons[i].style.backgroundColor='#f3d43d';
-        buttons[i].style.border='solid 1px #f3d43d';
-        buttons[i].style.color='#4e4751';
-        buttons[i].style.transition='all .4s linear';
-    })
-}
+// let buttons = document.querySelectorAll('button')
+// for(let i = 0; i<buttons.length; i++){
+//     buttons[i].addEventListener('mouseenter', function(){
+//         buttons[i].style.backgroundColor='#f7941e';
+//         buttons[i].style.border='solid 1px #f7941e';
+//         buttons[i].style.color='#fff';
+//         buttons[i].style.transition='all .4s linear';
+//     })
+//     buttons[i].addEventListener('mouseleave', function(){
+//         buttons[i].style.backgroundColor='#f3d43d';
+//         buttons[i].style.border='solid 1px #f3d43d';
+//         buttons[i].style.color='#4e4751';
+//         buttons[i].style.transition='all .4s linear';
+//     })
+// }

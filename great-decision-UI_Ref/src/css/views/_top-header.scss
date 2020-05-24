@@ -20,7 +20,7 @@
             left: 70px;
             top:10px;
             line-height: 0.95;
-        @include fonts (20px,$font-prox-black,700,$p-2);
+            @include fonts (20px,$font-prox-black,400,$p-2);
         }     
     }
     .contact{  

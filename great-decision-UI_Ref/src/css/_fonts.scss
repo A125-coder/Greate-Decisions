@@ -8,6 +8,15 @@
 
 }
 @font-face {
+    font-family: 'ProximaNovaCond-Regular';
+    src: url('../fonts/ProximaNova/WOFF/ProximaNovaExCn-Regular.woff');
+    src: url('../fonts/ProximaNova/WOFF/ProximaNovaExCn-Regular.woff2') format('woff2'),
+         url('../fonts/ProximaNova/WOFF/ProximaNovaExCn-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
     font-family: 'ProximaNovaCond-Semibold';
     src: url('../fonts/ProximaNova/WOFF/ProximaNovaCond-Semibold.woff');
     src: url('../fonts/ProximaNova/WOFF/ProximaNovaCond-Semibold.woff2') format('woff2'),
@@ -46,7 +55,8 @@
 }
 
 
-$font-prox-reg:ProximaNovaCond-RegularIt;
+$font-prox-reg-it:ProximaNovaCond-RegularIt;
+$font-prox-reg:ProximaNovaCond-Regular;
 $font-prox-sm:ProximaNovaCond-Semibold;
 $font-prox-eb:ProximaNovaCond-Extrabld;
 $font-sfui-reg:SFUIText-Regular;
